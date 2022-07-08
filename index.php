@@ -18,7 +18,7 @@
                         <?php
                         $busca = $banco->query("select * from jogos order by nome");
                         if(!$busca){
-                                echo"<tr><td>Infelizment a busca deu errado</p>";
+                                echo"<tr><td>Infelizmente a busca deu errado</p>";
                         }else {
                                 if ($busca->num_rows == 0){
                                         echo"<tr><td>Nenhum Regitro encontrado</p>";      
